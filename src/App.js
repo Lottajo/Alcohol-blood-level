@@ -51,7 +51,7 @@ function App() {
           <label><input type="radio" name="gender" value="female" onChange={e => setGender(e.target.value)} ></input>Female</label>
         </div>
         <div className="form-group">
-          <label>Alcohol blood level: </label>
+          <label>Alcohol blood level:  </label>
           <output>{alcblood.toFixed(2)}</output>
         </div>
         <button className="btn btn-info">Calculate</button>
